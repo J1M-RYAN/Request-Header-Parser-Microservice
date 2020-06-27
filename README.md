@@ -1,30 +1,25 @@
-# hello-express
+# Request Header Parser Microservice
 
-A server that serves a webpage, its resources, and some data
+[Live site on Glitch](https://likeable-diamond-uranium.glitch.me/)  
+
+![](preview.gif)  
+
+## Instructions
+Click go to https://likeable-diamond-uranium.glitch.me/api/whoami to get user IP, Language and Software
+
+ 
+Example Output  
+{
+ipaddress: "192.168.0.0",
+language: "en-US,en;q=0.9,de-DE;q=0.8,de;q=0.7",
+software: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36"
+}
+
+## Built With
+
+* [Node JS](https://nodejs.org/en/)  
 
 
-## Your Project
+## Acknowledgments
 
-On the front-end,
-
-- Edit `views/index.html` to change the content of the webpage
-- `public/client.js` is the javacript that runs when you load the webpage
-- `public/style.css` is the styles for `views/index.html`
-- Drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
-
-
-## Made by [Glitch](https://glitch.com/)
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-( ᵔ ᴥ ᵔ )
+* This project idea is from freeCodeCamp    
